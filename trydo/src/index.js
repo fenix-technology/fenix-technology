@@ -67,7 +67,8 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={CorporateBusiness}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
@@ -86,7 +87,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/designer-portfolio`} component={DesignerPortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-portfolio`} component={CreativePortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/interior-landing`} component={InteriorLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/demo`} component={Demo}/>
 
 
                     {/* Element Layot */}
